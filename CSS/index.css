@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: square;
+}
+
+.box {
+    width: 602px;
+    height: 250px;
+    margin: 100px auto;
+}
+
+.box .title {
+    height: 70px;
+    line-height: 70px;
+    font-size: 28px;
+}
+
+.box ul li {
+    height: 41px;
+    line-height: 41px;
+    padding-left: 18px;
+    font-size: 18px;
+}
+
+.box ul {
+    border-top: 1px dashed #dcdcdc;
+    border-bottom: 1px dashed #dcdcdc;
+    height: 179px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.box ul li a:hover {
+    color: #ff0000;
+}
